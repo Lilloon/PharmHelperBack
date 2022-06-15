@@ -5,6 +5,7 @@ const router = new Router();
 router.get('/allManufCountries', DrugsController.getCountries);
 router.get('/:id', DrugsController.getDrugById);
 router.get('/search/:name', DrugsController.getSearchList);
+router.get('/:id/analogs', DrugsController.getAnalogs)
 
 
 
